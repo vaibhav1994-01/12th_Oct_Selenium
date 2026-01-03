@@ -1,4 +1,4 @@
-package testNG_Keywords;
+package testNG_Features;
 
 import org.testng.annotations.*; 
 

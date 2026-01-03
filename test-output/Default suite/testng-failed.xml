@@ -3,19 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_Keywords.TestNGKeyword">
+      <class name="parallelTesting.ParallelTesting">
         <methods>
-          <include name="testCase1"/>
-          <include name="loginToApp"/>
-          <include name="launching_URL"/>
-          <include name="closeDB"/>
-          <include name="logoutFromApp"/>
-          <include name="closing_CurrentTab"/>
-          <include name="launchBrowser"/>
-          <include name="closing_Browser"/>
-          <include name="setupDB"/>
+          <include name="Demosite2"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testNG_Keywords.TestNGKeyword -->
+      </class> <!-- parallelTesting.ParallelTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

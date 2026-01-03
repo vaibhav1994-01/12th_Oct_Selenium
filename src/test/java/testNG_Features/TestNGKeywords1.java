@@ -1,4 +1,4 @@
-package testNG_Keywords;
+package testNG_Features;
 
 import org.testng.annotations.*;
 
@@ -6,22 +6,22 @@ public class TestNGKeywords1 {
 	
 //Smoke,Regression Test run through TestNG XML file
 	
-	@Test(groups = "Smoke", enabled = true)
+	@Test(groups = "Smoke")
 	public void testCase1() {
 		System.out.println("Executing Test Case 1");
 		
 	}
 	
-	@Test(groups = "Regression", enabled = true)
+	@Test(groups = "Regression")
 	public void testCase2() {
 		System.out.println("Executing Test Case 2");
 	}
 	
-	@Test(groups = "Regression", enabled = true)  
+	@Test(groups = "Regression")  
 	public void testCase3() {
 		System.out.println("Executing Test Case 3");
 	}
-	@Test(groups = "Smoke", enabled = true)
+	@Test(groups = "Smoke")
 	public void testCase4() {
 		System.out.println("Executing Test Case 4");
 	}
